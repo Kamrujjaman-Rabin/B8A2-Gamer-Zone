@@ -20,4 +20,8 @@ header .nav {
     margin: 0;
 } 
 
+/* goat section styles */
+.goat {
+    flex-direction: column;
+}
 }

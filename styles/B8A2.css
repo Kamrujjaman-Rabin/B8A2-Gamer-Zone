@@ -351,3 +351,64 @@ img.small {
     position: relative;
     left: 500px;
 }
+
+/* career section */
+
+#career {
+    background: #ff42a5;;
+    background-size: contain;
+    color: white;
+    padding: 0px 50px;
+}
+
+#career .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.career-content{
+    flex-basis: 60%;
+}
+
+.career-image {
+    flex-basis: 50%;
+}
+
+.career-image img{
+    width: 100%
+}
+
+.career-content {
+    padding: 120px 0;
+
+}
+
+.career-content h2 {
+    font-size: 48px;
+    font-weight: var(--fw-bold);
+    line-height: 60px;
+    margin-bottom: 24px;
+}
+
+.career-content .lists {
+    display: flex;
+    margin: 32px 0 40px;
+}
+
+.career-content .lists ul li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.career-content .left-list {
+    text-align: right;
+}
+
+#career .btn {
+    background: white;
+    color: #FF42A5;
+}

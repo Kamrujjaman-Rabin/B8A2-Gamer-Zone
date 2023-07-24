@@ -1,7 +1,7 @@
 /* Mobile Devices */
 @media screen and (max-width:576px) {
     /* shared styles */
-    .nav {
+    .nav, .container {
         padding: 0 25px;
     }
 
@@ -23,5 +23,15 @@ header .nav {
 /* goat section styles */
 .goat {
     flex-direction: column;
+}
+/* gamer section */
+.gamer {
+    flex-direction: column;
+}
+.gamer-content p.purpose span{
+    width: auto;
+}
+.gamer-content {
+    text-align: center;
 }
 }

@@ -387,8 +387,7 @@ img.small {
 
 .career-content h2 {
     font-size: 48px;
-    font-weight: var(--fw-bold);
-    line-height: 60px;
+    font-weight: 600;
     margin-bottom: 24px;
 }
 
@@ -411,4 +410,48 @@ img.small {
 #career .btn {
     background: white;
     color: #FF42A5;
+}
+
+/* categories section */
+
+#categories {
+    padding: 120px 50px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+#categories .container .item-row1{
+    display: flex; */
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row;
+    margin-bottom: 22px;
+}
+
+#categories .container .item-row2{
+    display: flex; */
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row;
+}
+
+.item {
+    background-color: white;
+    padding: 10px 20px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    border-radius: 50px;
+    transition: 0.3s;
+    border: 2px solid transparent;
+    color: #0B0223;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.item:hover {
+    border: 2px solid #ff42a5;;
+    color: #ff42a5;
 }
